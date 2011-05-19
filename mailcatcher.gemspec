@@ -58,6 +58,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<sinatra>, [">= 0"])
       s.add_runtime_dependency(%q<haml>, [">= 0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
+      s.add_runtime_dependency(%q<ruby-growl>, [">= 3.0.0"])
     else
       s.add_dependency(%q<eventmachine>, [">= 0"])
       s.add_dependency(%q<mail>, [">= 0"])

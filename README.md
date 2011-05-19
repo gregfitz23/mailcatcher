@@ -4,7 +4,8 @@ Catches mail and serves it through a dream.
 
 MailCatcher runs a super simple SMTP server which catches any message sent to it to display in a web interface. Run mailcatcher, set your favourite app to deliver to smtp://127.0.0.1:1025 instead of your default SMTP server, then check out http://127.0.0.1:1080 to see the mail that's arrived so far.
 
-![MailCatcher screenshot](http://puu.sh/25jm)
+## This fork
+This fork is to enable Growl notifications as messages are caught.
 
 ## How
 
@@ -22,6 +23,7 @@ MailCatcher runs a super simple SMTP server which catches any message sent to it
 * Written super-simply in EventMachine, easy to dig in and change.
 * Command line options to override the default SMTP/HTTP IP and port settings.
 * Mail appears instantly if your browser supports [WebSockets][websockets].
+* Growl notifications are available via the ruby-growl gem.
 
 ## Caveats
 
@@ -32,7 +34,6 @@ MailCatcher runs a super simple SMTP server which catches any message sent to it
 ## TODO
 
 * Download link to view original message in mail client.
-* Growl support.
 * Test suite.
 * Add mail delivery on request, optionally multiple times.
 * Forward mail to rendering service, maybe CampaignMonitor?
