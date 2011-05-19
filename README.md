@@ -10,6 +10,7 @@ This fork is to enable Growl notifications as messages are caught.
 ## How
 
 1. `gem install mailcatcher`
+2. Enable Growl notifications by going to the Growl Preference Pane -> Network -> Listen for incoming notifications
 2. `mailcatcher`
 3. Go to http://localhost:1080/
 4. Send mail through smtp://localhost:1025
